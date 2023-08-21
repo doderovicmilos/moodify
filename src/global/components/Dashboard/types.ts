@@ -8,6 +8,6 @@ interface IUserSettings {
 interface IDashboardUI {
   isAddSongActive: boolean;
   isEditMoodActive: boolean;
-}
+};
 
-export type { IDashboardUI, IUserSettings }
+export type { IDashboardUI, IUserSettings };

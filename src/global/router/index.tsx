@@ -1,6 +1,8 @@
 import { createBrowserRouter } from "react-router-dom";
-import Root from "./routes/Root";
+
 import Playlist from "../../pages/Playlist";
+import Root from "./routes/Root";
+
 
 export default createBrowserRouter([
   {

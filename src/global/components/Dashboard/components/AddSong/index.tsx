@@ -5,7 +5,7 @@ import { Modal, Box, FormGroup, FormControlLabel, TextField, Button, MenuItem, T
 
 import { moods } from "../../../../../shared/constants";
 import { playlistState } from "../../../../../pages/Playlist/store";
-import { modalContentStyles, labelStyles, outlinedInputSecondaryColorMixin } from "../../../../../shared/styles";
+import { modalContentStyles, labelStyles, outlinedInputSecondaryColorMixin, submitButtonStyles } from "../../../../../shared/styles";
 import { userSettingsState } from "../../store";
 
 interface AddSongProps {
@@ -136,7 +136,7 @@ export default function AddSong({handleClose}:AddSongProps):JSX.Element {
             name="mood"
             control={control}
           />
-          <Button variant="contained" type="submit" sx={{mt: 3, mb: 2, mx: 2}}>Save</Button>
+          <Button variant="contained" type="submit" sx={submitButtonStyles}>Save</Button>
           </FormGroup>
         </form>
       </Box>

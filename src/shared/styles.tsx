@@ -7,7 +7,7 @@ const modalContentStyles = {
   borderRadius: 1,
   width: 375,
   padding: 3
-}
+};
 
 const labelStyles = {
   cursor: 'init', 
@@ -39,4 +39,6 @@ const outlinedInputSecondaryColorMixin = {
   }
 };
 
-export { modalContentStyles, labelStyles, outlinedInputSecondaryColorMixin };
+const submitButtonStyles = {mt: 3, mb: 2, mx: 2};
+
+export { modalContentStyles, labelStyles, outlinedInputSecondaryColorMixin, submitButtonStyles };

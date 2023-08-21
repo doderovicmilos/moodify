@@ -1,13 +1,13 @@
+import { useRecoilState } from "recoil";
+import { useForm, Controller } from 'react-hook-form';
 import { Modal, Box, FormGroup, FormControlLabel, TextField, Button, MenuItem, Typography } from "@mui/material";
 import EmojiPicker from 'emoji-picker-react';
-import { useForm, Controller } from 'react-hook-form';
 
 import { moods } from "../../../../../shared/constants";
-import {  modalContentStyles, labelStyles, outlinedInputSecondaryColorMixin } from "../../../../../shared/styles";
-import { useRecoilState } from "recoil";
-
+import {  modalContentStyles, labelStyles, outlinedInputSecondaryColorMixin, submitButtonStyles } from "../../../../../shared/styles";
 import { Mood } from "../../../../../shared/types";
 import { userSettingsState } from "../../store";
+import { formGroupStyles } from "./styles";
 
 
 interface AddSongProps {
@@ -51,7 +51,7 @@ export default function EditMood({handleClose}:AddSongProps):JSX.Element {
       <Box sx={{...modalContentStyles, width: 375}}>
       <Typography variant="h5" sx={{m:2}}>Edit Mood Label</Typography>
       <form onSubmit={handleSubmit(submitHandler)}>
-        <FormGroup sx={{ ".EmojiPickerReact": { mt: 3, ml: 2} }}>
+        <FormGroup sx={formGroupStyles}>
           <Controller
             render={({ field }) => {
               return (
@@ -113,7 +113,7 @@ export default function EditMood({handleClose}:AddSongProps):JSX.Element {
             name="mood"
             control={control}
           />
-          <Button variant="contained" type="submit" sx={{mt: 3, mb: 2, mx: 2}}>Save</Button>
+          <Button variant="contained" type="submit" sx={submitButtonStyles}>Save</Button>
           </FormGroup>
         </form>
       </Box>

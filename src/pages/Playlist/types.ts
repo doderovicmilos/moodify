@@ -6,11 +6,11 @@ interface ISong {
   artist: string;
   album: string;
   mood: Mood;
-}
+};
 
 interface IPlaylist {
   playlist: ISong[];
-}
+};
 
 
 export type { ISong, IPlaylist };

@@ -1,12 +1,13 @@
 import { useState } from 'react';
 import { NavLink } from 'react-router-dom';
 import { useRecoilState, useSetRecoilState } from 'recoil';
-import {AppBar as MuiAppBar, Box, Toolbar, Typography, IconButton, Menu, MenuItem } from '@mui/material';
+import { AppBar as MuiAppBar, Box, Toolbar, Typography, IconButton, Menu, MenuItem } from '@mui/material';
 import SettingsSuggestIcon from '@mui/icons-material/SettingsSuggest';
 
 import { Mood } from '../../../../../shared/types';
 import { moods } from '../../../../../shared/constants';
 import { dashboardUIState, userSettingsState } from '../../store';
+import { addSongTypographyStyles, playlistTypographyStyles } from './styles';
 
 
 export default function AppBar():JSX.Element {
@@ -36,12 +37,12 @@ export default function AppBar():JSX.Element {
     <Box sx={{ flexGrow: 1 }}>
       <MuiAppBar position="static">
         <Toolbar>
-            <Typography variant="h6" component="div" sx={{ flexGrow: 1, cursor: "pointer" }}>
-              <NavLink to="/" style={{ textDecoration: 'none', color: 'white' }}>
+            <Typography variant="h6" component="div" sx={playlistTypographyStyles}>
+              <NavLink to="/">
                 Playlist
               </NavLink>
             </Typography>
-            <Typography variant="h6" component="div" sx={{ mr: 4, cursor: "pointer" }} onClick={toggleAddSong}>
+            <Typography variant="h6" component="div" sx={addSongTypographyStyles} onClick={toggleAddSong}>
               Add song
             </Typography>
             <IconButton

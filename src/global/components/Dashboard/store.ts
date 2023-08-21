@@ -34,4 +34,4 @@ const userSettingsState = atom<IUserSettings>({
   }
 });
 
-export { dashboardUIState, userSettingsState }
+export { dashboardUIState, userSettingsState };
