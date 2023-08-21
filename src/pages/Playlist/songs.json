@@ -4,7 +4,6 @@
     "title": "Like a Rolling Stone",
     "artist": "Bob Dylan",
     "album": "Highway 61 Revisited",
-    "year": "1965",
     "mood": "relaxed"
   },
   {
@@ -12,7 +11,6 @@
     "title": "(I Can't Get No) Satisfaction",
     "artist": "The Rolling Stones",
     "album": "Out of Our Heads",
-    "year": "1965",
     "mood": "energetic"
   },
   {
@@ -20,7 +18,6 @@
     "title": "Imagine",
     "artist": "John Lennon",
     "album": "Imagine",
-    "year": "1971",
     "mood": "relaxed"
   },
   {
@@ -28,7 +25,6 @@
     "title": "What's Going On",
     "artist": "Marvin Gaye",
     "album": "What's Going On",
-    "year": "1971",
     "mood": "relaxed"
   },
   {
@@ -36,7 +32,6 @@
     "title": "Respect",
     "artist": "Aretha Franklin",
     "album": "I Never Loved a Man the Way I Love You",
-    "year": "1967",
     "mood": "happy"
   },
   {
@@ -44,7 +39,6 @@
     "title": "Good Vibrations",
     "artist": "The Beach Boys",
     "album": "Smiley Smile/Wild Honey",
-    "year": "1966",
     "mood": "happy"
   },
   {
@@ -52,7 +46,6 @@
     "title": "Johnny B. Goode",
     "artist": "Chuck Berry",
     "album": "The Anthology",
-    "year": "1958",
     "mood": "energetic"
   },
   {
@@ -60,7 +53,6 @@
     "title": "Hey Jude",
     "artist": "The Beatles",
     "album": "Hey Jude",
-    "year": "1968",
     "mood": "relaxed"
   },
   {
@@ -68,7 +60,6 @@
     "title": "Smells Like Teen Spirit",
     "artist": "Nirvana",
     "album": "Nevermind",
-    "year": "1991",
     "mood": "energetic"
   },
   {
@@ -76,7 +67,6 @@
     "title": "What'd I Say",
     "artist": "Ray Charles",
     "album": "What'd I Say",
-    "year": "1959",
     "mood": "energetic"
   },
   {
@@ -84,7 +74,6 @@
     "title": "My Generation",
     "artist": "The Who",
     "album": "My Generation",
-    "year": "1965",
     "mood": "energetic"
   },
   {
@@ -92,7 +81,6 @@
     "title": "A Change Is Gonna Come",
     "artist": "Sam Cooke",
     "album": "Portrait of a Legend 1951-1964",
-    "year": "1964",
     "mood": "sad"
   },
   {
@@ -100,7 +88,6 @@
     "title": "Yesterday",
     "artist": "The Beatles",
     "album": "Help!",
-    "year": "1965",
     "mood": "sad"
   },
   {
@@ -108,7 +95,6 @@
     "title": "Blowin' in the Wind",
     "artist": "Bob Dylan",
     "album": "The Freewheelin' Bob Dylan",
-    "year": "1963",
     "mood": "sad"
   },
   {
@@ -116,7 +102,6 @@
     "title": "London Calling",
     "artist": "The Clash",
     "album": "London Calling",
-    "year": "1980",
     "mood": "energetic"
   },
   {
@@ -124,7 +109,6 @@
     "title": "I Want to Hold Your Hand",
     "artist": "The Beatles",
     "album": "Meet the Beatles!",
-    "year": "1963",
     "mood": "relaxed"
   },
   {
@@ -132,7 +116,6 @@
     "title": "Purple Haze",
     "artist": "The Jimi Hendrix Experience",
     "album": "Are You Experienced?",
-    "year": "1967",
     "mood": "energetic"
   },
   {
@@ -140,7 +123,6 @@
     "title": "Maybellene",
     "artist": "Chuck Berry",
     "album": "The Anthology",
-    "year": "1955",
     "mood": "energetic"
   },
   {
@@ -148,7 +130,6 @@
     "title": "Hound Dog",
     "artist": "Elvis Presley",
     "album": " Elvis 30 #1 Hits",
-    "year": "1956",
     "mood": "energetic"
   },
   {
@@ -156,7 +137,6 @@
     "title": "Let It Be",
     "artist": "The Beatles",
     "album": "Let It Be",
-    "year": "1970",
     "mood": "sad"
   },
   {
@@ -164,7 +144,6 @@
     "title": "Born to Run",
     "artist": "Bruce Springsteen",
     "album": "Born to Run",
-    "year": "1975",
     "mood": "sad"
   },
   {
@@ -172,7 +151,6 @@
     "title": "Be My Baby",
     "artist": "The Ronettes",
     "album": "The Best of the Ronettes",
-    "year": "1963",
     "mood": "happy"
   },
   {
@@ -180,7 +158,6 @@
     "title": "In My Life",
     "artist": "The Beatles",
     "album": "Rubber Soul",
-    "year": "1965",
     "mood": "relaxed"
   },
   {
@@ -188,7 +165,6 @@
     "title": "People Get Ready",
     "artist": "The Impressions",
     "album": "The Very Best of the Impressions",
-    "year": "1965",
     "mood": "relaxed"
   },
   {
@@ -196,7 +172,6 @@
     "title": "God Only Knows",
     "artist": "The Beach Boys",
     "album": "Pet Sounds",
-    "year": "1966",
     "mood": "energetic"
   },
   {
@@ -204,7 +179,6 @@
     "title": "(Sittin' On) The Dock of the Bay",
     "artist": "Otis Redding",
     "album": "The Dock of the Bay",
-    "year": "1968",
     "mood": "happy"
   },
   {
@@ -212,7 +186,6 @@
     "title": "Layla",
     "artist": "Derek and the Dominos",
     "album": "Layla And Other Assorted Love Songs",
-    "year": "1970",
     "mood": "energetic"
   },
   {
@@ -220,7 +193,6 @@
     "title": "A Day in the Life",
     "artist": "The Beatles",
     "album": "Sgt. Pepper's Lonely Hearts Club Band",
-    "year": "1967",
     "mood": "sad"
   },
   {
@@ -228,7 +200,6 @@
     "title": "Help!",
     "artist": "The Beatles",
     "album": "Help!",
-    "year": "1965",
     "mood": "sad"
   },
   {
@@ -236,7 +207,6 @@
     "title": "I Walk the Line",
     "artist": "Johnny Cash",
     "album": "The Complete Original Sun Singles",
-    "year": "1956",
     "mood": "sad"
   },
   {
@@ -244,7 +214,6 @@
     "title": "Stairway to Heaven",
     "artist": "Led Zeppelin",
     "album": "Led Zeppelin IV",
-    "year": "1971",
     "mood": "sad"
   },
   {
@@ -252,7 +221,6 @@
     "title": "Sympathy for the Devil",
     "artist": "The Rolling Stones",
     "album": "Beggars Banquet",
-    "year": "1968",
     "mood": "energetic"
   },
   {
@@ -260,7 +228,6 @@
     "title": "River Deep - Mountain High",
     "artist": "Ike & Tina Turner",
     "album": "Proud Mary: The Best of Ike and Tina Turner",
-    "year": "1966",
     "mood": "relaxed"
   },
   {
@@ -268,7 +235,6 @@
     "title": "You've Lost That Lovin' Feelin'",
     "artist": "The Righteous Brothers",
     "album": "Anthology 1962-1974",
-    "year": "1964",
     "mood": "sad"
   },
   {
@@ -276,7 +242,6 @@
     "title": "Light My Fire",
     "artist": "The Doors",
     "album": "The Doors",
-    "year": "1967",
     "mood":" relaxed"
   },
   {
@@ -292,7 +257,6 @@
     "title": "No Woman, No Cry",
     "artist": "Bob Marley & The Wailers",
     "album": "Natty Dread",
-    "year": "1975",
     "mood": "sad"
   },
   {
@@ -300,7 +264,6 @@
     "title": "Gimme Shelter",
     "artist": "The Rolling Stones",
     "album": "Let It Bleed",
-    "year": "1969",
     "mood": "sad"
 
   },
@@ -309,7 +272,6 @@
     "title": "That'll Be the Day",
     "artist": "Buddy Holly & The Crickets",
     "album": "Greatest Hits",
-    "year": "1957",
     "mood":" relaxed"
   },
   {
@@ -317,487 +279,6 @@
     "title": "Dancing in the Street",
     "artist": "Martha and the Vandellas",
     "album": "The Ultimate Collection",
-    "year": "1964",
-    "mood": "happy"
-  },
-  {
-    "rank": 41,
-    "title": "The Weight",
-    "artist": "The Band",
-    "album": "Music From Big Pink",
-    "year": "1968",
-    "mood": "happy"
-  },
-  {
-    "rank": 42,
-    "title": "Waterloo Sunset",
-    "artist": "The Kinks",
-    "album": "Something Else By The Kinks",
-    "year": "1968",
-    "mood": "happy"
-  },
-  {
-    "rank": 43,
-    "title": "Tutti-Frutti",
-    "artist": "Little Richard",
-    "album": "The Georgia Peach",
-    "year": "1956",
-    "mood": "happy"
-  },
-  {
-    "rank": 44,
-    "title": "Georgia On My Mind",
-    "artist": "Ray Charles",
-    "album": "Ultimate Hits Collection",
-    "year": "1960",
-    "mood": "happy"
-  },
-  {
-    "rank": 45,
-    "title": "Heartbreak Hotel",
-    "artist": "Elvis Presley",
-    "album": "Elvis 30 #1 Hits",
-    "year": "1956",
-    "mood": "sad"    
-  },
-  {
-    "rank": 46,
-    "title": "Heroes",
-    "artist": "David Bowie",
-    "album": "Heroes",
-    "year": "1977",
-    "mood": "happy"
-  },
-  {
-    "rank": 47,
-    "title": "All Along the Watchtower",
-    "artist": "The Jimi Hendrix Experience",
-    "album": "Electric Ladyland",
-    "year": "1968",
-    "mood": "energetic"
-  },
-  {
-    "rank": 48,
-    "title": "Bridge Over Troubled Water",
-    "artist": "Simon & Garfunkel",
-    "album": "Bridge Over Troubled Water",
-    "year": "1970",
-    "mood": "sad"
-  },
-  {
-    "rank": 49,
-    "title": "Hotel California",
-    "artist": "Eagles",
-    "album": "Hotel California",
-    "year": "1976",
-    "mood": "sad"
-  },
-  {
-    "rank": 50,
-    "title": "The Tracks Of My Tears",
-    "artist": "Smokey Robinson and the Miracles",
-    "album": "Going to a Go-Go",
-    "year": "1965",
-    "mood": "sad"
-  },
-  {
-    "rank": 51,
-    "title": "The Message",
-    "artist": "Grandmaster Flash and the Furious Five",
-    "album": "The Best of Sugar Hill Records",
-    "year": "1980",
-    "mood": "energetic"
-  },
-  {
-    "rank": 52,
-    "title": "When Doves Cry",
-    "artist": "Prince and The Revolution",
-    "album": "Purple Rain",
-    "year": "1984",
-    "mood": "sad"
-  },
-  {
-    "rank": 53,
-    "title": "When A Man Loves A Woman",
-    "artist": "Percy Sledge",
-    "album": "It Tears Me Up: The Best of Percy Sledge",
-    "year": "1966",
-    "mood": "sad"
-  },
-  {
-    "rank": 54,
-    "title": "Louie Louie",
-    "artist": "The Kingsmen",
-    "album": "The Best of the Kingsmen",
-    "year": "1963",
-    "mood": "sad"
-  },
-  {
-    "rank": 55,
-    "title": "Long Tall Sally",
-    "artist": "Little Richard",
-    "album": "The Georgia Peach",
-    "year": "1956",
-    "mood": "sad"
-  },
-  {
-    "rank": 56,
-    "title": "Anarchy in the U.K.",
-    "artist": "Sex Pistols",
-    "album": "Never Mind the Bollocks, Here's the Sex Pistols",
-    "year": "1976",
-    "mood": "energetic"
-  },
-  {
-    "rank": 57,
-    "title": "A Whiter Shade of Pale",
-    "artist": "Procol Harum",
-    "album": "Greatest Hits",
-    "year": "1967",
-    "mood": "relaxed"
-  },
-  {
-    "rank": 58,
-    "title": "Billie Jean",
-    "artist": "Michael Jackson",
-    "album": "Thriller",
-    "year": "1983",
-    "mood": "energetic"
-  },
-  {
-    "rank": 59,
-    "title": "The Times They Are a-Changin'",
-    "artist": "Bob Dylan",
-    "album": "The Times They Are A-Changin'",
-    "year": "1964",
-    "mood": "sad"
-  },
-  {
-    "rank": 60,
-    "title": "Let's Stay Together",
-    "artist": "Al Green",
-    "album": "Let's Stay Together",
-    "year": "1971",
-    "mood": "sad"
-  },
-  {
-    "rank": 61,
-    "title": "Whole Lotta Shakin' Going On",
-    "artist": "Jerry Lee Lewis",
-    "album": "Original Sun Greatest Hits",
-    "year": "1957",
-    "mood": "energetic"
-  },
-  {
-    "rank": 62,
-    "title": "Bo Diddley",
-    "artist": "Bo Diddley",
-    "album": "His Best: The Chess 50th Anniversary Collection",
-    "year": "1955",
-    "mood": "happy"
-  },
-  {
-    "rank": 63,
-    "title": "For What It's Worth",
-    "artist": "Buffalo Springfield",
-    "album": "Buffalo Springfield",
-    "year": "1967",
-    "mood": "sad"
-  },
-  {
-    "rank": 64,
-    "title": "She Loves You",
-    "artist": "The Beatles",
-    "album": "The Beatles 1",
-    "year": "1963",
-    "mood": "happy"
-  },
-  {
-    "rank": 65,
-    "title": "Sunshine of Your Love",
-    "artist": "Cream",
-    "album": "Disraeli Gears",
-    "year": "1968",
-    "mood": "happy"
-  },
-  {
-    "rank": 66,
-    "title": "Redemption Song",
-    "artist": "Bob Marley & The Wailers",
-    "album": "Uprising",
-    "year": "1980",
-    "mood": "relaxed"
-  },
-  {
-    "rank": 67,
-    "title": "Jailhouse Rock",
-    "artist": "Elvis Presley",
-    "album": "Elvis 30 #1 Hits",
-    "year": "1957",
-    "mood": "energetic"
-  },
-  {
-    "rank": 68,
-    "title": "Tangled Up in Blue",
-    "artist": "Bob Dylan",
-    "album": "Blood on the Tracks",
-    "year": "1975",
-    "mood": "sad"
-  },
-  {
-    "rank": 69,
-    "title": "Crying",
-    "artist": "Roy Orbison",
-    "album": "For the Lonely: 18 Greatest Hits",
-    "year": "1961",
-    "mood": "sad"
-  },
-  {
-    "rank": 70,
-    "title": "Walk On By",
-    "artist": "Dionne Warwick",
-    "album": "The Dionne Warwick Collection: Her All-Time Greatest Hits",
-    "year": "1964",
-    "mood": "relaxed"
-  },
-  {
-    "rank": 71,
-    "title": "Papa's Got a Brand New Bag",
-    "artist": "James Brown",
-    "album": "50th Anniversary Collection",
-    "year": "1966",
-    "mood": "happy"
-  },
-  {
-    "rank": 72,
-    "title": "California Girls",
-    "artist": "The Beach Boys",
-    "album": "Sounds of Summer: The Very Best of the Beach Boys",
-    "year": "1965",
-    "mood": "happy"
-  },
-  {
-    "rank": 73,
-    "title": "Superstition",
-    "artist": "Stevie Wonder",
-    "album": "Talking Book",
-    "year": "1973",
-    "mood": "relaxed"
-  },
-  {
-    "rank": 74,
-    "title": "Summertime Blues",
-    "artist": "Eddie Cochran",
-    "album": "Somethin' Else",
-    "year": "1958",
-    "mood": "sad"
-  },
-  {
-    "rank": 75,
-    "title": "Whole Lotta Love",
-    "artist": "Led Zeppelin",
-    "album": "Led Zeppelin II",
-    "year": "1969",
-    "mood": "energetic"
-  },
-  {
-    "rank": 76,
-    "title": "Strawberry Fields Forever",
-    "artist": "The Beatles",
-    "album": "Magical Mystery Tour",
-    "year": "1967",
-    "mood": "sad"
-  },
-  {
-    "rank": 77,
-    "title": "Mystery Train",
-    "artist": "Elvis Presley",
-    "album": "Sunrise",
-    "year": "1955",
-    "mood": "happy"
-  },
-  {
-    "rank": 78,
-    "title": "I Got You (I Feel Good)",
-    "artist": "James Brown",
-    "album": "James Brown 50th Anniversary Collection",
-    "year": "1966",
-    "mood": "happy"
-  },
-  {
-    "rank": 79,
-    "title": "Mr. Tambourine Man",
-    "artist": "The Byrds",
-    "album": "Mr. Tambourine Man",
-    "year": "1965",
-    "mood": "relaxed"
-  },
-  {
-    "rank": 80,
-    "title": "You Really Got Me",
-    "artist": "The Kinks",
-    "album": "Kinks",
-    "year": "1964",
-    "mood": "energetic"
-  },
-  {
-    "rank": 81,
-    "title": "I Heard It Through the Grapevine",
-    "artist": "Marvin Gaye",
-    "album": "Every Motown Hit",
-    "year": "1968",
-    "mood": "relaxed"
-  },
-  {
-    "rank": 82,
-    "title": "Blueberry Hill",
-    "artist": "Fats Domino",
-    "album": "The Fats Domino Jukebox",
-    "year": "1956",
-    "mood": "sad"
-  },
-  {
-    "rank": 83,
-    "title": "Norwegian Wood (This Bird Has Flown)",
-    "artist": "The Beatles",
-    "album": "Rubber Soul",
-    "year": "1965",
-    "mood": "sad"
-  },
-  {
-    "rank": 84,
-    "title": "Every Breath You Take",
-    "artist": "The Police",
-    "album": "Synchronicity",
-    "year": "1983",
-    "mood": "happy"
-  },
-  {
-    "rank": 85,
-    "title": "Crazy",
-    "artist": "Patsy Cline",
-    "album": "Patsy Cline's Greatest Hits",
-    "year": "1961",
-    "mood": "relaxed"
-  },
-  {
-    "rank": 86,
-    "title": "Thunder Road",
-    "artist": "Bruce Springsteen",
-    "album": "Born to Run",
-    "year": "1975",
-    "mood": "energetic"
-  },
-  {
-    "rank": 87,
-    "title": "Ring of Fire",
-    "artist": "Johnny Cash",
-    "album": "The Man in Black: His Greatest Hits",
-    "year": "1963",
-    "mood": "relaxed"
-  },
-  {
-    "rank": 88,
-    "title": "My Girl",
-    "artist": "The Temptations",
-    "album": "The Temptations Sing Smokey",
-    "year": "1965",
-    "mood": "happy"
-  },
-  {
-    "rank": 89,
-    "title": "California Dreamin'",
-    "artist": "The Mamas & The Papas",
-    "album": "If You Can Believe Your Eyes And Ears",
-    "year": "1965",
-    "mood": "relaxed"
-  },
-  {
-    "rank": 90,
-    "title": "In The Still Of The Nite",
-    "artist": "The Five Satins",
-    "album": "The Five Satins: Their Greatest Hits",
-    "year": "1956",
-    "mood": "sad"
-  },
-  {
-    "rank": 91,
-    "title": "Suspicious Minds",
-    "artist": "Elvis Presley",
-    "album": "Elvis 30 #1 Hits",
-    "year": "1969",
-    "mood": "relaxed"
-  },
-  {
-    "rank": 92,
-    "title": "Blitzkrieg Bop",
-    "artist": "Ramones",
-    "album": "Ramones",
-    "year": "1976",
-    "mood": "energetic"
-  },
-  {
-    "rank": 93,
-    "title": "I Still Haven't Found What I'm Looking For",
-    "artist": "U2",
-    "album": "The Joshua Tree",
-    "year": "1987",
-    "mood": "relaxed"
-  },
-  {
-    "rank": 94,
-    "title": "Good Golly",
-    "artist": "Little Richard",
-    "album": "The Georgia Peach",
-    "year": "1958",
-    "mood": "happy"
-  },
-  {
-    "rank": 95,
-    "title": "Blue Suede Shoes",
-    "artist": "Carl Perkins",
-    "album": "Original Sun Greatest Hits",
-    "year": "1956",
-    "mood": "happy"
-  },
-  {
-    "rank": 96,
-    "title": "Great Balls of Fire",
-    "artist": "Jerry Lee Lewis",
-    "album": "Original Sun Greatest Hits",
-    "year": "1957",
-    "mood": "energetic"
-  },
-  {
-    "rank": 97,
-    "title": "Roll Over Beethoven",
-    "artist": "Chuck Berry",
-    "album": "The Anthology",
-    "year": "1956",
-    "mood": "energetic"
-  },
-  {
-    "rank": 98,
-    "title": "Love And Happiness",
-    "artist": "Al Green",
-    "album": "I'm Still in Love With You",
-    "year": "1972",
-    "mood": "happy"
-  },
-  {
-    "rank": 99,
-    "title": "Fortunate Son",
-    "artist": "Creedence Clearwater Revival",
-    "album": "Willy And The Poor Boys",
-    "year": "1970",
-    "mood": "energetic"
-  },
-  {
-    "rank": 100,
-    "title": "Crazy",
-    "artist": "Gnarls Barkley",
-    "album": "St. Elsewhere",
-    "year": "2006",
-    "mood": "relaxed"
+     "mood": "happy"
   }
 ]

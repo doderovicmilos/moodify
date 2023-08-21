@@ -1,4 +1,4 @@
-import { Mood } from "../../global/types";
+import { Mood } from "../../shared/types";
 
 interface ISong {
   rank: number;

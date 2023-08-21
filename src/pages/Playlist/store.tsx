@@ -1,7 +1,7 @@
 import { atom } from 'recoil';
 import { IPlaylist, ISong } from './types';
 
-import songs from './songs1.json';
+import songs from './songs.json';
 
 const playlistState = atom<IPlaylist>({
   key: 'playlistState',

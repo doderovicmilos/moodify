@@ -1,12 +1,12 @@
 import { Modal, Box, FormGroup, FormControlLabel, TextField, Button, MenuItem, Typography } from "@mui/material";
 import { useForm, Controller } from 'react-hook-form';
 import { useMemo } from "react";
-import { outlinedInputSecondaryColorMixin } from "./styles";
-import { Mood } from "../../../../types";
-import { useRecoilState } from "recoil";
+import { useRecoilState, useRecoilValue } from "recoil";
+
+import { moods } from "../../../../../shared/constants";
 import { playlistState } from "../../../../../pages/Playlist/store";
-
-
+import { modalContentStyles, labelStyles, outlinedInputSecondaryColorMixin } from "../../../../../shared/styles";
+import { userSettingsState } from "../../../../store";
 
 
 interface AddSongProps {
@@ -14,6 +14,7 @@ interface AddSongProps {
 }
 
 export default function AddSong({handleClose}:AddSongProps):JSX.Element {
+  const { moodLabels } = useRecoilValue(userSettingsState);
   const {
     handleSubmit,
     control,
@@ -28,22 +29,9 @@ export default function AddSong({handleClose}:AddSongProps):JSX.Element {
     handleClose();
   }
 
-  const moods: Mood[] = ['happy', 'sad', 'energetic', 'relaxed'];
-
-  const labelStyles = {cursor: 'init', alignItems: 'start', mt: 2, div: { width: '100%' }, input: { padding: 1, width: '100%' }, '.MuiSelect-select': { padding: 1 } };
-
   return (
     <Modal open={true} onClose={handleClose}>
-      <Box sx={{ 
-          position: 'absolute',
-          top: '50%',
-          left: '50%',
-          transform: 'translate(-50%, -50%)',
-          bgcolor: 'white',
-          borderRadius: 1,
-          width: 300,
-          padding: 3
-        }}>
+      <Box sx={modalContentStyles}>
       <Typography variant="h5" sx={{m:2}}>Add Song</Typography>
       <form onSubmit={handleSubmit(submitHandler)}>
         <FormGroup>
@@ -131,7 +119,16 @@ export default function AddSong({handleClose}:AddSongProps):JSX.Element {
                       {...field}
                       select
                     >
-                      {moods.map(el => (<MenuItem key={el} value={el}>{el}</MenuItem>))}
+                      {
+                        moods.map(el => (
+                          <MenuItem 
+                            key={el} 
+                            value={el}
+                          >
+                            {moodLabels[el].emoji}
+                          </MenuItem>)
+                        )
+                      }
                     </TextField>
                   }
                 />

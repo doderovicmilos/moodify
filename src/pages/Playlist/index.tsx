@@ -1,22 +1,25 @@
 import React, { useMemo } from "react";
-import { useRecoilValue } from 'recoil';
+import { useRecoilValue, useRecoilState } from 'recoil';
 import { userSettingsState } from "../../global/store";
 import { playlistState } from "./store";
 import { TableContainer, Paper, Table as MuiTable, TableHead, TableRow, TableCell, TableBody, IconButton } from "@mui/material";
 import CloseIcon from '@mui/icons-material/Close';
+import { rowStyles } from "./styles";
 
 export default function SongList(): JSX.Element {
   const { mood } = useRecoilValue(userSettingsState);
-  const { playlist } = useRecoilValue(playlistState);
+  const [{ playlist }, setPlaylist] = useRecoilState(playlistState);
 
   const filteredPlaylist = useMemo(() => 
     playlist.filter(el => el.mood === mood), 
   [playlist, mood]);
 
-  const rowStyles = {
-    td: {
-      width: "30%"
-    }
+  const deleteClickHandler = (rank:number) => {
+    setPlaylist(prev => (
+      {
+        playlist: prev.playlist.filter(el=>el.rank!==rank)
+      }
+    ));
   }
 
   return (<>
@@ -44,7 +47,9 @@ export default function SongList(): JSX.Element {
                   <TableCell>{it.artist}</TableCell>
                   <TableCell>{it.album}</TableCell>
                   <TableCell>
-                    <IconButton>
+                    <IconButton 
+                      onClick={() => { deleteClickHandler(it.rank) }}
+                    >
                       <CloseIcon color="error" />
                     </IconButton>
                   </TableCell>

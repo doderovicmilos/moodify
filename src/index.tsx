@@ -14,9 +14,7 @@ const root = ReactDOM.createRoot(
 root.render(
   <React.StrictMode>
     <RecoilRoot>
-
-        <RouterProvider router={router} />
-
+      <RouterProvider router={router} />
     </RecoilRoot>
   </React.StrictMode>
 );
