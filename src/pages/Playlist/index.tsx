@@ -1,10 +1,11 @@
 import React, { useMemo } from "react";
 import { useRecoilValue, useRecoilState } from 'recoil';
-import { userSettingsState } from "../../global/store";
+
 import { playlistState } from "./store";
 import { TableContainer, Paper, Table as MuiTable, TableHead, TableRow, TableCell, TableBody, IconButton } from "@mui/material";
 import CloseIcon from '@mui/icons-material/Close';
 import { rowStyles } from "./styles";
+import { userSettingsState } from "../../global/components/Dashboard/store";
 
 export default function SongList(): JSX.Element {
   const { mood } = useRecoilValue(userSettingsState);

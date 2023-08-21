@@ -1,13 +1,12 @@
-import { Modal, Box, FormGroup, FormControlLabel, TextField, Button, MenuItem, Typography } from "@mui/material";
-import { useForm, Controller } from 'react-hook-form';
 import { useMemo } from "react";
 import { useRecoilState, useRecoilValue } from "recoil";
+import { useForm, Controller } from 'react-hook-form';
+import { Modal, Box, FormGroup, FormControlLabel, TextField, Button, MenuItem, Typography } from "@mui/material";
 
 import { moods } from "../../../../../shared/constants";
 import { playlistState } from "../../../../../pages/Playlist/store";
 import { modalContentStyles, labelStyles, outlinedInputSecondaryColorMixin } from "../../../../../shared/styles";
-import { userSettingsState } from "../../../../store";
-
+import { userSettingsState } from "../../store";
 
 interface AddSongProps {
   handleClose: () => void;
@@ -137,7 +136,7 @@ export default function AddSong({handleClose}:AddSongProps):JSX.Element {
             name="mood"
             control={control}
           />
-          <Button type="submit" sx={{mt: 3}}>Submit</Button>
+          <Button variant="contained" type="submit" sx={{mt: 3, mb: 2, mx: 2}}>Save</Button>
           </FormGroup>
         </form>
       </Box>

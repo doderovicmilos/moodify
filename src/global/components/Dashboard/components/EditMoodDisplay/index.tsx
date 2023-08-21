@@ -5,8 +5,9 @@ import { useForm, Controller } from 'react-hook-form';
 import { moods } from "../../../../../shared/constants";
 import {  modalContentStyles, labelStyles, outlinedInputSecondaryColorMixin } from "../../../../../shared/styles";
 import { useRecoilState } from "recoil";
-import { userSettingsState } from "../../../../store";
+
 import { Mood } from "../../../../../shared/types";
+import { userSettingsState } from "../../store";
 
 
 interface AddSongProps {
@@ -36,6 +37,7 @@ export default function EditMood({handleClose}:AddSongProps):JSX.Element {
           } 
       }
     ));
+    handleClose();
   }
 
   const handleEmojiClick = (e:any) => {
@@ -111,7 +113,7 @@ export default function EditMood({handleClose}:AddSongProps):JSX.Element {
             name="mood"
             control={control}
           />
-          <Button type="submit" sx={{mt: 3}}>Submit</Button>
+          <Button variant="contained" type="submit" sx={{mt: 3, mb: 2, mx: 2}}>Save</Button>
           </FormGroup>
         </form>
       </Box>

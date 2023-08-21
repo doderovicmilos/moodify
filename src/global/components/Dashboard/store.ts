@@ -1,7 +1,15 @@
 import { atom } from 'recoil';
-import { UserSettings } from './types';
+import { IDashboardUI, IUserSettings } from './types';
 
-const userSettingsState = atom<UserSettings>({
+const dashboardUIState = atom<IDashboardUI>({
+  key: 'dashboardUIState',
+  default: {
+    isAddSongActive: false,
+    isEditMoodActive: false
+  }
+});
+
+const userSettingsState = atom<IUserSettings>({
   key: 'userSettingsState',
   default: {
     mood: 'happy',
@@ -26,4 +34,4 @@ const userSettingsState = atom<UserSettings>({
   }
 });
 
-export { userSettingsState }
+export { dashboardUIState, userSettingsState }

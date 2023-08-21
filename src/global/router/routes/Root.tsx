@@ -1,12 +1,12 @@
 import { Outlet } from 'react-router-dom';
-import AppBar from '../../components/AppBar';
+import Dashboard from '../../components/Dashboard';
 
 export default function Root(): JSX.Element {
 
   return (
     <>
-      <AppBar/>
-      <Outlet/>
+      <Dashboard />
+      <Outlet />
     </>
   );
 
