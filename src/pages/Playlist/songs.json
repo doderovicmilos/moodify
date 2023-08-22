@@ -242,7 +242,7 @@
     "title": "Light My Fire",
     "artist": "The Doors",
     "album": "The Doors",
-    "mood":" relaxed"
+    "mood": " relaxed"
   },
   {
     "rank": 36,
@@ -265,20 +265,19 @@
     "artist": "The Rolling Stones",
     "album": "Let It Bleed",
     "mood": "sad"
-
   },
   {
     "rank": 39,
     "title": "That'll Be the Day",
     "artist": "Buddy Holly & The Crickets",
     "album": "Greatest Hits",
-    "mood":" relaxed"
+    "mood": " relaxed"
   },
   {
     "rank": 40,
     "title": "Dancing in the Street",
     "artist": "Martha and the Vandellas",
     "album": "The Ultimate Collection",
-     "mood": "happy"
+    "mood": "happy"
   }
 ]

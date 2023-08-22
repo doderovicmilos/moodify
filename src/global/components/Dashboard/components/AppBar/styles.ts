@@ -1,12 +1,12 @@
-const playlistTypographyStyles = { 
-  flexGrow: 1, 
-  cursor: "pointer",
-  a: { 
-    textDecoration: 'none', 
-    color: 'white' 
+const playlistTypographyStyles = {
+  flexGrow: 1,
+  cursor: 'pointer',
+  a: {
+    textDecoration: 'none',
+    color: 'white'
   }
 };
 
-const addSongTypographyStyles = { mr: 4, cursor: "pointer" };
+const addSongTypographyStyles = { mr: 4, cursor: 'pointer' };
 
-export { playlistTypographyStyles, addSongTypographyStyles};
+export { playlistTypographyStyles, addSongTypographyStyles };

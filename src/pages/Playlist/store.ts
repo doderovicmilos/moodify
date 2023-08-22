@@ -6,7 +6,7 @@ import songs from './songs.json';
 const playlistState = atom<IPlaylist>({
   key: 'playlistState',
   default: {
-    playlist: [...songs as ISong[]]
+    playlist: [...(songs as ISong[])]
   }
 });
 

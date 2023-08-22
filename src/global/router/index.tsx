@@ -1,8 +1,7 @@
-import { createBrowserRouter } from "react-router-dom";
+import { createBrowserRouter } from 'react-router-dom';
 
-import Playlist from "../../pages/Playlist";
-import Root from "./routes/Root";
-
+import Playlist from '../../pages/Playlist';
+import Root from './routes/Root';
 
 export default createBrowserRouter([
   {
@@ -13,7 +12,7 @@ export default createBrowserRouter([
       {
         id: 'songList',
         element: <Playlist />,
-        index: true 
+        index: true
       }
     ]
   }

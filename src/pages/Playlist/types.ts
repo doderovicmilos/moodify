@@ -1,4 +1,4 @@
-import { Mood } from "../../shared/types";
+import { Mood } from '../../shared/types';
 
 interface ISong {
   rank: number;
@@ -6,11 +6,10 @@ interface ISong {
   artist: string;
   album: string;
   mood: Mood;
-};
+}
 
 interface IPlaylist {
   playlist: ISong[];
-};
-
+}
 
 export type { ISong, IPlaylist };

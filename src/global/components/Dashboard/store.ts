@@ -14,21 +14,21 @@ const userSettingsState = atom<IUserSettings>({
   default: {
     mood: 'happy',
     moodLabels: {
-      happy: { 
-        plain: "Happy", 
-        emoji: "🥰"
+      happy: {
+        plain: 'Happy',
+        emoji: '🥰'
       },
-      sad: { 
-        plain: "Sad", 
-        emoji: "☹️"
+      sad: {
+        plain: 'Sad',
+        emoji: '☹️'
       },
-      energetic:  { 
-        plain: "Energetic", 
-        emoji: "✊"
+      energetic: {
+        plain: 'Energetic',
+        emoji: '✊'
       },
-      relaxed: { 
-        plain: "Relaxed", 
-        emoji: "😞"
+      relaxed: {
+        plain: 'Relaxed',
+        emoji: '😞'
       }
     }
   }

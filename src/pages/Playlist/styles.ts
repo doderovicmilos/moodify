@@ -1,6 +1,6 @@
 const rowStyles = {
   td: {
-    width: "30%"
+    width: '30%'
   }
 };
 
